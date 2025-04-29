@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Website Tiga Kotak</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f0f0f0;
+    }
+
+    .container {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .box {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      width: 300px;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .box img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    .box p {
+      margin-top: 10px;
+    }
+
+    /* Responsive: jika layar kecil (misalnya HP), kotaknya akan diatur ke bawah */
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1 style="text-align: center;">The Product</h1>
+  <div class="container">
+    <div class="box">
+      <img src="https://images-cdn.ubuy.co.id/6352022551345a301932e568-modern-coffee-table-coffee-tables-for.jpg" alt="Gambar 1">
+      <p>Meja minimalist</p>
+    </div>
+    <div class="box">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGOgoKIhPqaLXmTsYDht80HSyv3APhRDiX0g&s" alt="Gambar 2">
+      <p>Kursi minimalist</p>
+    </div>
+    <div class="box">
+      <img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1721085395-GUEST_c2f78ada-75c9-48fa-be82-bd4888a17fc2.jpg?crop=1xw:1.00xh;center,top&resize=980:*" alt="Gambar 3">
+      <p>Kasur minimalist, anti tungau anti kotor sangat cocok yang punya selera minimalist</p>
+    </div>
+  </div>
+</body>
+</html>
